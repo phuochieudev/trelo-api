@@ -1,0 +1,13 @@
+{
+  "name": "trelo-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "phuochieu",
+  "main": "src/server.js",
+  "author": "dev",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
