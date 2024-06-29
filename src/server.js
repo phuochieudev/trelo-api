@@ -12,10 +12,6 @@ const START_SERVER = () => {
 
   //Use API v1
   app.use('/v1', APIs_V1)
-
-  //Middleware xử lý lỗi tập trung
-  app.use(errorHandlingMiddleware)
-
   app.listen(env.APP_PORT, env.APP_HOST, () => {
     // eslint-disable-next-line no-console
     console.log(`Hello ${env.AUTHOR}, Back-end Server is running successfully at Host: ${ env.APP_HOST } and Port ${ env.APP_PORT }`)
