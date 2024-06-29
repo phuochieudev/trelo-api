@@ -9,4 +9,4 @@ Router.route('/')
   })
   .post(boardValidation.createNew)
 
-export const boardRoute = Router
+export const boardRoutes = Router
